@@ -5,5 +5,5 @@ from faker import Faker
 fake = Faker()
 
 while True:
-    print(fake.name())
+    print(fake.name(), fake.email())
     time.sleep(5)
