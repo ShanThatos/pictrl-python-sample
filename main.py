@@ -1,7 +1,9 @@
+import time
+
 from faker import Faker
 
 fake = Faker()
 
-
-for _ in range(100):
+while True:
     print(fake.name())
+    time.sleep(5)
